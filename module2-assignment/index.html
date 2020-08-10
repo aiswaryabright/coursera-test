@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Assignment Solution for Module 2</title>
 	<style>
 		*{
@@ -24,7 +25,7 @@ div.content{
   background-color: #999999;
   margin: 10px;
   position: relative;
- height: 300px;
+ /*height: 400px;*/
 
 	}
 	div.headers{
@@ -44,7 +45,7 @@ div.content{
 	#sushi{
 		background-color: #e5d198;
 	}
-	@media (min-width: 1200px) {
+	@media (min-width: 992px) {
 	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
     
@@ -88,7 +89,7 @@ div.content{
 }
 
 /********** Medium devices only **********/
-@media (min-width: 950px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
     
@@ -130,13 +131,21 @@ div.content{
     width: 100%;
   }
 }
-	};
+@media (max-width: 767px){
+  .col-xs-12{
+    float: left;
+    
+  }
+  .col-xs-12 {
+    width: 100%;
+  }
+	}
 	</style>
 </head>
 <body>
 	<h1>Our Menu</h1>
 
-	<div class="col-lg-4 col-md-6">
+	<div class="col-lg-4 col-md-6 col-xs-12">
 		<div class="content">
 		<div class="headers" id="chicken">Chicken</div>
 		<p>
@@ -144,11 +153,11 @@ div.content{
 	</p>
 </div>
 	</div>
-	<div class="col-lg-4 col-md-6">
+	<div class="col-lg-4 col-md-6 col-xs-12">
 		<div class="content">
 		<div class="headers" id="beef">Beef</div>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eleifend eget metus ac gravida. Nunc facilisis orci et dui interdum fringilla. Nunc malesuada nisi eget laoreet tristique. In hac habitasse platea dictumst. Pellentesque nec tortor ipsum. Sed at sodales est. Sed tristique nibh at lorem mattis dapibus. Cras tincidunt neque eget tempus luctus. Nulla facilisi. Quisque laoreet rhoncus iaculis. Nam facilisis, massa non maximus placeratSed tristique nibh at lorem mattis dapibus. Cras tincidunt neque eget tempus luctus. Nulla facilisi. Quisque laoreet rhoncus iaculis. Nam facilisis, massa non maximus placerat</p></div></div>
-	<div class="col-lg-4 col-md-12">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eleifend eget metus ac gravida. Nunc facilisis orci et dui interdum fringilla. Nunc malesuada nisi eget laoreet tristique. In hac habitasse platea dictumst. Pellentesque nec tortor ipsum. Sed at sodales est. Sed tristique nibh at lorem mattis dapibus. Cras tincidunt neque eget tempus luctus. Nulla facilisi. Quisque laoreet rhoncus iaculis. Nam facilisis, massa non maximus placerat</p></div></div>
+	<div class="col-lg-4 col-md-12 col-xs-12">
 		<div class="content">
 		<div class="headers" id="sushi">Sushi</div>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eleifend eget metus ac gravida. Nunc facilisis orci et dui interdum fringilla. Nunc malesuada nisi eget laoreet tristique. In hac habitasse platea dictumst. Pellentesque nec tortor ipsum. Sed at sodales est. Sed tristique nibh at lorem mattis dapibus. Cras tincidunt neque eget tempus luctus. Nulla facilisi. Quisque laoreet rhoncus iaculis. Nam facilisis, massa non maximus placerat</p></div></div>
