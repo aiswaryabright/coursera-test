@@ -19,11 +19,10 @@ line-height: .75;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-
+#nav-list{
+	background-color: #337ab79c;
+    color: white;
+}
 #nav-list li{
 	margin-bottom: 10px;
-}
-.navbar-collapse{
-	    background-color: #337ab79c;
-    color: white;
 }
