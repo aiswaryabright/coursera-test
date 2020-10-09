@@ -1,0 +1,29 @@
+#header-nav{
+	background-color: #f2dede;
+	border-radius: 0;
+	border: 0;
+}
+
+div #chicken{
+	font: inherit;
+	margin: 20px;
+    padding: 0px 15px;
+    background-color: #dfd8f0;
+}
+.navbar-brand h1{
+margin-top: 0;
+margin-bottom: 0;
+line-height: .75;
+}
+.navbar-header{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#nav-list li{
+	margin-bottom: 10px;
+}
+.navbar-collapse{
+	    background-color: #337ab79c;
+    color: white;
+}
